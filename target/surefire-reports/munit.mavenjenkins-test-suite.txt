@@ -1,0 +1,13 @@
+SUCCESS - Test mavenjenkins-test-suite-mavenjenkinsFlowTest finished Successfully.
+SUCCESS - Test mavenjenkins-test-suite-mavenjenkinsFlowTest2 finished Successfully.
+SUCCESS - Test mavenjenkins-test-suite-mavenjenkinsFlowTest3 finished Successfully.
+SUCCESS - Test mavenjenkins-test-suite-mavenjenkinsFlowTest4 finished Successfully.
+SUCCESS - Test mavenjenkins-test-suite-mavenjenkinsFlowTest5 finished Successfully.
+SUCCESS - Test mavenjenkins-test-suite-mavenjenkinsFlowTest6 finished Successfully.
+SUCCESS - Test mavenjenkins-test-suite-mavenjenkinsFlowTest7 finished Successfully.
+SUCCESS - Test mavenjenkins-test-suite-mavenjenkinsFlowTest8 finished Successfully.
+SUCCESS - Test mavenjenkins-test-suite-mavenjenkinsFlowTest9 finished Successfully.
+
+========================================================================================
+Number of tests run: 9 - Failed: 0 - Errors: 0 - Skipped: 0 - Time elapsed: 0.04599999ms
+========================================================================================
