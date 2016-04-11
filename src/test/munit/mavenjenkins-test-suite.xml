@@ -8,7 +8,7 @@ http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/cor
         <spring:import resource="classpath:mavenjenkins.xml"/>
     </spring:beans>
     <munit:test name="mavenjenkins-test-suite-mavenjenkinsFlowTest" description="Test">
-        <munit:assert-true condition="#[1==1]" doc:name="Assert True"/>
+        <munit:assert-true condition="#[1==2]" doc:name="Assert True"/>
     </munit:test>
     <munit:test name="mavenjenkins-test-suite-mavenjenkinsFlowTest2" description="Test">
         <munit:assert-true condition="#[1==1]" doc:name="Assert True"/>
