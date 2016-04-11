@@ -1,4 +1,9 @@
-SUCCESS - Test mavenjenkins-test-suite-mavenjenkinsFlowTest finished Successfully.
+FAILURE - The test mavenjenkins-test-suite-mavenjenkinsFlowTest finished with a Failure.
+assertTrue
+java.lang.AssertionError: assertTrue
+	at mavenjenkins-test-suite-mavenjenkinsFlowTest.munit:assert-true{doc:name=Assert True, condition=false}(mavenjenkins-test-suite.xml:11)
+	at appleFlow.munit:test{initialState=started, description=Test, ignore=false, abstract=false, id=MunitTestFlow$$EnhancerByMUNIT$$904837f0{mavenjenkins-test-suite-mavenjenkinsFlowTest}}(mavenjenkins-test-suite.xml:10)
+
 SUCCESS - Test mavenjenkins-test-suite-mavenjenkinsFlowTest2 finished Successfully.
 SUCCESS - Test mavenjenkins-test-suite-mavenjenkinsFlowTest3 finished Successfully.
 SUCCESS - Test mavenjenkins-test-suite-mavenjenkinsFlowTest4 finished Successfully.
@@ -8,6 +13,6 @@ SUCCESS - Test mavenjenkins-test-suite-mavenjenkinsFlowTest7 finished Successful
 SUCCESS - Test mavenjenkins-test-suite-mavenjenkinsFlowTest8 finished Successfully.
 SUCCESS - Test mavenjenkins-test-suite-mavenjenkinsFlowTest9 finished Successfully.
 
-========================================================================================
-Number of tests run: 9 - Failed: 0 - Errors: 0 - Skipped: 0 - Time elapsed: 0.04599999ms
-========================================================================================
+===================================================================================
+Number of tests run: 9 - Failed: 1 - Errors: 0 - Skipped: 0 - Time elapsed: 0.153ms
+===================================================================================

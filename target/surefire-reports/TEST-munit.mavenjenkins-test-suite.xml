@@ -1,9 +1,9 @@
-<testsuite name="mavenjenkins-test-suite" time="0.04599999" failures="0" errors="0" skipped="0" tests="9">
+<testsuite name="mavenjenkins-test-suite" time="0.153" failures="1" errors="0" skipped="0" tests="9">
   <properties>
     <property key="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property key="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_73\jre\bin"/>
     <property key="java.vm.version" value="25.73-b02"/>
-    <property key="maven.multiModuleProjectDirectory" value="C:\a\workspace5.4.1\mavenjenkins"/>
+    <property key="maven.multiModuleProjectDirectory" value="C:/Users/Angel.Trastoy/AL/mavenjenkins"/>
     <property key="java.vm.vendor" value="Oracle Corporation"/>
     <property key="java.vendor.url" value="http://java.oracle.com/"/>
     <property key="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property key="sun.java.launcher" value="SUN_STANDARD"/>
     <property key="sun.os.patch.level" value="Service Pack 1"/>
     <property key="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property key="user.dir" value="C:\a\workspace5.4.1\mavenjenkins"/>
+    <property key="user.dir" value="C:\Users\Angel.Trastoy\AL\mavenjenkins"/>
     <property key="java.runtime.version" value="1.8.0_73-b02"/>
     <property key="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property key="mule.testingMode" value="true"/>
@@ -26,9 +26,9 @@
     <property key="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property key="user.variant" value=""/>
     <property key="os.name" value="Windows 7"/>
-    <property key="classworlds.conf" value="C:\Programs\apache-maven-3.3.9\bin\m2.conf"/>
+    <property key="classworlds.conf" value="C:/Programs/apache-maven-3.3.9/bin/m2.conf"/>
     <property key="sun.jnu.encoding" value="Cp1252"/>
-    <property key="java.library.path" value="C:\Program Files\Java\jdk1.8.0_73\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Programs\apache-maven-3.3.9\bin;C:\Programs\apache-ant-1.9.6\bin; C:\Programs\Jenkins;C:\Users\Angel.Trastoy\AppData\Local\atom\bin;."/>
+    <property key="java.library.path" value="C:\Program Files\Java\jdk1.8.0_73\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Angel.Trastoy\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Angel.Trastoy\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone;C:\Program Files\Git\cmd;C:\Programs\apache-maven-3.3.9\bin;C:\Programs\apache-ant-1.9.6\bin; C;C:\Program Files\Git\Programs\Jenkins;C:\Users\Angel.Trastoy\AppData\Local\atom\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
     <property key="java.specification.name" value="Java Platform API Specification"/>
     <property key="java.class.version" value="52.0"/>
     <property key="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -38,10 +38,10 @@
     <property key="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property key="file.encoding" value="Cp1252"/>
     <property key="java.specification.version" value="1.8"/>
-    <property key="log4j.configurationFile" value="file:/C:/a/workspace5.4.1/mavenjenkins/target/test-classes/log4j2-test.xml"/>
-    <property key="cobertura.port" value="53220"/>
-    <property key="java.class.path" value="C:\Programs\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
-    <property key="user.name" value="angel.trastoy"/>
+    <property key="log4j.configurationFile" value="file:/C:/Users/Angel.Trastoy/AL/mavenjenkins/target/test-classes/log4j2-test.xml"/>
+    <property key="cobertura.port" value="51777"/>
+    <property key="java.class.path" value="C:/Programs/apache-maven-3.3.9/boot/plexus-classworlds-2.5.2.jar"/>
+    <property key="user.name" value="Angel.Trastoy"/>
     <property key="java.vm.specification.version" value="1.8"/>
     <property key="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
     <property key="java.home" value="C:\Program Files\Java\jdk1.8.0_73\jre"/>
@@ -65,13 +65,15 @@
     <property key="sun.desktop" value="windows"/>
     <property key="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase time="0.035" name="mavenjenkins-test-suite-mavenjenkinsFlowTest" classname="mavenjenkins-test-suite"/>
-  <testcase time="0.001" name="mavenjenkins-test-suite-mavenjenkinsFlowTest2" classname="mavenjenkins-test-suite"/>
-  <testcase time="0.001" name="mavenjenkins-test-suite-mavenjenkinsFlowTest3" classname="mavenjenkins-test-suite"/>
-  <testcase time="0.001" name="mavenjenkins-test-suite-mavenjenkinsFlowTest4" classname="mavenjenkins-test-suite"/>
-  <testcase time="0.001" name="mavenjenkins-test-suite-mavenjenkinsFlowTest5" classname="mavenjenkins-test-suite"/>
-  <testcase time="0.001" name="mavenjenkins-test-suite-mavenjenkinsFlowTest6" classname="mavenjenkins-test-suite"/>
-  <testcase time="0.001" name="mavenjenkins-test-suite-mavenjenkinsFlowTest7" classname="mavenjenkins-test-suite"/>
-  <testcase time="0.002" name="mavenjenkins-test-suite-mavenjenkinsFlowTest8" classname="mavenjenkins-test-suite"/>
-  <testcase time="0.003" name="mavenjenkins-test-suite-mavenjenkinsFlowTest9" classname="mavenjenkins-test-suite"/>
+  <testcase time="0.081" name="mavenjenkins-test-suite-mavenjenkinsFlowTest" classname="mavenjenkins-test-suite">
+    <failure><![CDATA[java.lang.AssertionError: assertTrue&#13;&#10;&#9;at mavenjenkins-test-suite-mavenjenkinsFlowTest.munit:assert-true{doc:name=Assert True, condition=false}(mavenjenkins-test-suite.xml:11)&#13;&#10;&#9;at appleFlow.munit:test{initialState=started, description=Test, ignore=false, abstract=false, id=MunitTestFlow$$EnhancerByMUNIT$$904837f0{mavenjenkins-test-suite-mavenjenkinsFlowTest}}(mavenjenkins-test-suite.xml:10)&#13;&#10;]]></failure>
+  </testcase>
+  <testcase time="0.002" name="mavenjenkins-test-suite-mavenjenkinsFlowTest2" classname="mavenjenkins-test-suite"/>
+  <testcase time="0.017" name="mavenjenkins-test-suite-mavenjenkinsFlowTest3" classname="mavenjenkins-test-suite"/>
+  <testcase time="0.006" name="mavenjenkins-test-suite-mavenjenkinsFlowTest4" classname="mavenjenkins-test-suite"/>
+  <testcase time="0.012" name="mavenjenkins-test-suite-mavenjenkinsFlowTest5" classname="mavenjenkins-test-suite"/>
+  <testcase time="0.007" name="mavenjenkins-test-suite-mavenjenkinsFlowTest6" classname="mavenjenkins-test-suite"/>
+  <testcase time="0.004" name="mavenjenkins-test-suite-mavenjenkinsFlowTest7" classname="mavenjenkins-test-suite"/>
+  <testcase time="0.014" name="mavenjenkins-test-suite-mavenjenkinsFlowTest8" classname="mavenjenkins-test-suite"/>
+  <testcase time="0.01" name="mavenjenkins-test-suite-mavenjenkinsFlowTest9" classname="mavenjenkins-test-suite"/>
 </testsuite>
